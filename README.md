@@ -1,3 +1,3 @@
 # Ini-FPW
 
-Intinya, ==ini untuk belajar, sekian==
+Intinya ini untuk belajar, sekian
