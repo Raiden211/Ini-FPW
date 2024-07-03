@@ -72,7 +72,7 @@ const getAllGames = async(req,res) => {
 };
 
 const getOneGames = async(req,res) => {
-    const id = req.query.id;
+    const id = req.params.id;
     let caridata = await Games.findByPk(id);
 
     if(!caridata)
