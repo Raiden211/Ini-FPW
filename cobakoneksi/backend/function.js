@@ -32,8 +32,10 @@ const cobaAdd = async(req,res) => {
 };
 
 const cobaEdit = async(req,res) => {
-    const id = req.query.id;
-    const {title, image, price} = req.query;
+    const id = req.params.id;
+    const {title, image, price} = req.body;
+
+    const harga = parseInt(price);
 
     let caridata = await Games.findByPk(id);
 
@@ -54,7 +56,7 @@ const cobaEdit = async(req,res) => {
 };
 
 const cobaDelete = async(req,res) => {
-    const id = req.query.id;
+    const id = req.params.id;
     let caridata = await Games.findByPk(id);
 
     if(!caridata)
