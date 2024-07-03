@@ -11,6 +11,6 @@ app.post("/games/post",func.cobaAdd);
 app.put("/games/edit",func.cobaEdit);
 app.delete("/games/delete",func.cobaDelete);
 app.get("/games/get",func.getAllGames);
-app.get("/games/get1",func.getOneGames);
+app.get("/games/get1/:id",func.getOneGames);
 
 app.listen(port, () => console.log(`Running on port ${port}!`));
