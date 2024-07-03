@@ -10,6 +10,7 @@ Langkah2 menjalankan file:
 5. Selamat menikmati :D
 
 Oiya, di frontend ada readme.md untuk dibaca2, dan untuk edit dan delete nya masih dalam proses hehe;
+
 Update sudah
 
 Selamat membaca
