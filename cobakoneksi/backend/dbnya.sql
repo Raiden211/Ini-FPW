@@ -41,7 +41,7 @@ CREATE TABLE `games` (
 --
 
 INSERT INTO `games` (`id`, `title`, `image`, `price`) VALUES
-(1, 'EA sports fc 24', 'https://image.api.playstation.com/vulcan/ap/rnd/202309/1120/e9ae5df6e2f90c0a43cf78639f8a53f1b9afcc511903cde2.png', 79000),
+(1, 'EA Sports FC 24', 'https://image.api.playstation.com/vulcan/ap/rnd/202309/1120/e9ae5df6e2f90c0a43cf78639f8a53f1b9afcc511903cde2.png', 79000),
 (2, 'Ghostwire Tokyo', 'https://upload.wikimedia.org/wikipedia/en/d/d9/Ghostwire_Tokyo.png', 179000),
 (3, 'Maneater', 'https://image.api.playstation.com/vulcan/ap/rnd/202108/1821/QeAWbCZbFtYSbViA21EOL6S1.png', 150000);
 
