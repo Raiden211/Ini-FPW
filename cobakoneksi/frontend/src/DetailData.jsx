@@ -8,7 +8,7 @@ const DetailData = (props) => {
 
     const getData = async () => {
         try {
-            const response = await client.get(`games/get1?id=${props.index}`);
+            const response = await client.get(`games/get1/${props.index}`);
             setGamedata(response.data.data);
             console.log(response.data.data);
         } catch (error) {
@@ -18,11 +18,19 @@ const DetailData = (props) => {
     };
 
     const editData = async () => {
+        try {
 
+        } catch (error) {
+
+        }
     }
 
     const deleteData = async () => {
-        
+        try {
+
+        } catch (error) {
+            
+        }
     }
 
     useEffect(() => {
