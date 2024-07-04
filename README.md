@@ -17,3 +17,5 @@ Kemudian redux, redux ini suatu cara untuk membuat state menjadi bersifat global
 Dan ada database dimana database ini sebagai wadah penyimpanan data permanen (biasanya), localStorage itu sementara (kek session, cookie)
 
 Itu saja, nanti ada beberapa diluar tersebut yang bisa saya bantu, sekian, GBU.
+
+untuk penjelasan setiap web ada di readme didalam folder projek tersebut
